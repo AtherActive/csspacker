@@ -6,8 +6,9 @@ Simple, run it in the CMD!
 
 ```
 // Assuming you are in the working dir
-./pack.exe [folder path, if running from working dir use ./{path}]  [targetdir] [filename, DO NOT ADD .CSS]
+./pack.exe [folder path*]  [targetdir] [filename, DO NOT ADD .CSS]
 
 // When using it from path
-pack.exe [folder path, if running from working dir use ./{path}]  [targetdir] [filename, DO NOT ADD .CSS]
+pack.exe [folder path^]  [targetdir] [filename, DO NOT ADD .CSS]
 ```
+^ If you are selecting a folder from your WORKING dir (that is also inside of that dir) use `./`
